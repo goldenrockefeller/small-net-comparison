@@ -12,7 +12,7 @@ Takeaways:
 
 Distributing nodes:
 - fuzzy c-means
-- fuzzy c-means weighted by error (or square of output derivative)
+- fuzzy c-means weighted by error (or square of output derivative) (will this cause seperation on same axis? won't investigate, but if I would, I would weight the others by the dot product of the axis)
 - Alternate between nodes and model training
 
 Another must have is batch normalization.
@@ -21,3 +21,8 @@ Models to try:
 - relu
 - fuzzy-linear
 - -fuzzy-constant
+
+How to smooth:
+1) separate or one smoothing factor?
+-smooth is gradient descent,
+- smooth is based on per point statistics
