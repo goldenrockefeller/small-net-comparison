@@ -10,12 +10,12 @@ Takeaways:
 
 
 Distributing nodes:
-fuzzy c-means
-fuzzy c-means weighted by error
-Alternate between nodes and model training
+- fuzzy c-means
+- fuzzy c-means weighted by error
+- Alternate between nodes and model training
 
 Another must have in batch normalization.
 
 Models to try:
-relu
-piecewise linear, fixed ends
+- relu
+- piecewise linear, fixed ends
