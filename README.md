@@ -11,7 +11,7 @@ Takeaways:
 
 Distributing nodes:
 - fuzzy c-means
-- fuzzy c-means weighted by error
+- fuzzy c-means weighted by error (square of output derivative)
 - Alternate between nodes and model training
 
 Another must have in batch normalization.
