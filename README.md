@@ -6,7 +6,7 @@ Takeaways:
 - Nodes have to be distributed. The model will hit a local minimum on underspread, regardless of neural network architecture.
 - Randomly distributing nodes is not good enough, fixing the nodes in a uniform distribution works so much better.
 - Fuzzy-linear model works ok but has too many ripples, Fuzzy-constant is way worse. Both is good with a bit of smoothing (how much smoothing?)
-- 
+- Fuzzy-linear model works well even on underspread
 - Batch normalization may be very important, even in small models.
 
 
