@@ -12,8 +12,9 @@ Takeaways:
 
 Distributing nodes:
 - fuzzy c-means
-- fuzzy c-means weighted by error (or square of output derivative) (will this cause seperation on same axis? won't investigate now, but if I would, I would weight the others by the dot product of the axis)
-- Alternate between nodes and model training
+- fuzzy c-means weighted by error (or square of output derivative)
+- (will this cause seperation on same axis? won't investigate now, but if I would, I would weight the others by the dot product of the axis)
+- Alternate between nodes and model training (won't investigate now)
 
 Another must have is batch normalization.
 
