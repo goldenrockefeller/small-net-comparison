@@ -5,25 +5,25 @@ Takeaways:
 
 - Nodes have to be distributed. The model will hit a local minimum on underspread, regardless of neural network architecture.
 - Randomly distributing nodes is not good enough, fixing the nodes in a uniform distribution works so much better.
-- Fuzzy-linear model works ok but has too many ripples, Fuzzy-constant is way worse. Both is good with a bit of smoothing (how much smoothing?)
-- Fuzzy-linear model works well even on underspread
+- Fuzzy architectures needs a smoothing factor. Fuzzy-linear is generally better than fuzzy-constant.
+- Fuzzy-linear model works well even on underspread (when preforming gradient descent on the nodes too). Does not work well in overspread, so don't need to apply gradient descent to nodes.
 - Batch normalization may be very important, even in small models.
 
 
 Distributing nodes:
-- fuzzy c-means
-- fuzzy c-means weighted by error (or square of output derivative)
+- fuzzy c-means [?]
+- fuzzy c-means weighted by error (or square of output derivative) [?]
 - (will this cause seperation on same axis? won't investigate now, but if I would, I would weight the others by the dot product of the axis)
-- Alternate between nodes and model training (won't investigate now)
+- Alternate between nodes and model training (won't investigate now) [_]
 
 Another must have is batch normalization.
 
 Models to try:
 - relu
-- fuzzy-linear
+- fuzzy-linear [x]
 - -fuzzy-constant [x]
 
 How to smooth:
 1) separate or one smoothing factor?
 -smooth is gradient descent,
-- smooth is based on per point statistics
+- smooth is based on per point statistics [x]
