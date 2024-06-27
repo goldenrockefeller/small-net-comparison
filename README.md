@@ -21,7 +21,7 @@ Another must have is batch normalization.
 Models to try:
 - relu
 - fuzzy-linear
-- -fuzzy-constant
+- -fuzzy-constant [x]
 
 How to smooth:
 1) separate or one smoothing factor?
