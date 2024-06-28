@@ -8,6 +8,7 @@ Takeaways:
 - Fuzzy architectures needs a smoothing factor. Fuzzy-linear is generally better than fuzzy-constant.
 - Fuzzy-linear model works well even on underspread (when preforming gradient descent on the nodes too). Does not work well in overspread, so don't need to apply gradient descent to nodes.
 - Batch normalization may be very important, even in small models.
+- Fuzzy models have ripples on the exponential, but it is not clear that a Relu's error would be better or worse. Truly a case of there being no free-lunch in gradient descent
 
 
 Distributing nodes:
