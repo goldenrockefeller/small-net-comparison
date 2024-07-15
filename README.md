@@ -20,6 +20,7 @@ AutoScaling Ideas:
 - Should the bases mixture model total responsibilities be fixed or not? Probably fixed, but other is possible.
 - In addition to cross entropy, should I maximize or minimize the entropy of the bases distribution (or neither).
 - Perhaps, use the average entropy evalution after removing one bases (for better generalization ability). i.e. leave-one-out cross validation
+- Extend leave-one-out cross validation to remove/reduce other bases, based on a comparability value between the bases.
 
 Takeaways:
 
