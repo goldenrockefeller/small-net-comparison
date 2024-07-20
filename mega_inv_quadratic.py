@@ -19,8 +19,8 @@ relu_underspread_model = (
     rng.uniform(-1, 1., size = (n)),
     rng.uniform(-1, 1., size = (n)),
     rng.uniform(-1, 1., size = (n)),
-    np.array([0]),
-    np.array([0]),
+    np.array([0.]),
+    np.array([0.]),
 )
 
 
